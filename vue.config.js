@@ -8,7 +8,7 @@ module.exports = defineConfig({
       },
     },
   },
-  // devServer: {
-  //   port: 3080, // 設定埠為 3000
-  // },
+  devServer: {
+    port: 8088, // 設定埠為 3000
+  },
 })

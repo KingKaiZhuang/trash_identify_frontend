@@ -1,0 +1,36 @@
+pre,p,h2,h3,ul,li,ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding-block: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+.my-btn {
+  background-color: $warning-color;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: $dark-color;
+  box-shadow: 0 0 2px #6f6f6f;
+  transition: .3s;
+  
+  &:hover {
+    box-shadow: 0 5px 10px #ababab;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,71 @@
+.identify {
+    .identify-item {
+        background-color: rgb(214, 214, 214);
+        margin-bottom: 80px;
+        display: block;
+        img {
+            width: 100%;
+        }
+    }
+
+    .identify-content {
+        display: flex;
+
+        .identify-img {
+            width: 300px;
+        }
+
+        .identify-text {
+            .identify-list {
+                display: flex;
+                align-items: center;
+                padding-block: 15px;
+                h3 {
+                    margin-right: 25px;
+                }
+                span {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+.toast {
+    .toast-message {
+        transition: opacity 1s ease-in-out;
+        opacity: 1;
+    }
+
+    .fade-out {
+        opacity: 0;
+    }
+}
+
+.number {
+    .title {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        h2 {
+            display: inline;
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+    }
+
+    .title::before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        bottom: -30px;
+        width: 250px;
+        height: 30px;
+        background-image: url('../images/material/underline.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+}

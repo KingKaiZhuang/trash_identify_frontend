@@ -1,0 +1,38 @@
+.cart {
+    background-color: rgba(240, 240, 240, 0.582);
+    padding: 15px 12px;
+    margin-block: 12px;
+
+    .table {
+        vertical-align: middle;
+        .item-list {        
+            .img-item {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+            .money-item {
+                text-align: end;
+            }
+        }
+
+        .item-foot {
+            .total-item {
+                text-align: end;
+            }
+        }
+    }
+}
+
+.cart-button {
+    .card {
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .add-cart {
+            width: 100%;
+            margin: 20px 0 10px 0;
+        }
+    }
+}
